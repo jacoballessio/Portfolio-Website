@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jacob Allessio's Portfolio</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
 </head>
 <body>
     <header>
@@ -28,12 +29,32 @@
                 <!-- Add example projects in separate divs -->
                 <div class="project-type">
                     <h3>Freelancing Projects</h3>
-                    <p>Description of the project.</p>
-                    <div class="project-element">
-                        <h4>Project 1</h4>
-                        <p>Description of the project.</p>
+                    <p>The freelancing projects were made for specific clients, and as such I will not be sharing the source code here.</p>
+                    <div class="project-element" data-src="background.png">
+                        <img style="visibility:hidden; display: none;" src="blackberriesss.png" />
+                        <h4>BLACKBERRIES.GG</h4>
+                        <a href="blackberries.mp4">Open Example Video</a>
+                        <p>This is a website I made for a client who runs a gaming server. It is an MVP with styles and animations.</p>
+                        <div class="frameworks-list">
+                            <h5>Frameworks Used</h5>
+                            <div style="display:flex; flex-direction: row; margin-top: 10px;">
+                                <div class="framework">
+                                    <img class="skill-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" />
+                                    <p>HTML/CSS</p>
+                                </div>
+                                <div class="framework">
+                                    <img class="skill-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
+                                    <p>JavaScript</p>
+                                </div>
+                                <div class="framework">
+                                    <img class="skill-icon" style="background-color: black;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg" />
+                                    <p>React</p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                     <div class="project-element">
+                        <img style="visibility:hidden; display: none;" src="portfoliowebsitess.png" />
                         <h4>Project 2</h4>
                         <p>Description of the project.</p>
                     </div>
@@ -42,30 +63,89 @@
                     <h3>Personal Projects</h3>
                     <p>Description of the project.</p>
                     <div class="project-element">
-                        <h4>Project 1</h4>
-                        <p>Description of the project.</p>
+                        <img style="visibility:hidden; display: none;" src="portfoliowebsitess.png" />
+                        <h4>Portfolio Website</h4>
+                        <a href="https://github.com/jacoballessio/Portfolio-Website">GitHub Repository</a>
+                        <p>This is the website you're on right now!</p>
+                        <div class="frameworks-list">
+                            <h5>Frameworks Used</h5>
+                            <div style="display:flex; flex-direction: row; margin-top: 10px;">
+                                <div class="framework">
+                                    <img class="skill-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" />
+                                    <p>HTML/CSS</p>
+                                </div>
+                                <div class="framework">
+                                    <img class="skill-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
+                                    <p>JavaScript</p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                     <div class="project-element">
-                        <h4>Project 2</h4>
-                        <p>Description of the project.</p>
+                        <img style="visibility:hidden; display: none;" src="shakeysnakess.png" />
+                        <h4>Shakey Snake</h4>
+                        <a href="https://github.com/jacoballessio/ShakySnake">GitHub Repository</a>
+                        <p>This is a version of the classic "snake" game written in JavaScript. In this version, the snake will dance to any music.</p>
+                        <div class="frameworks-list">
+                            <h5>Frameworks Used</h5>
+                            <div style="display:flex; flex-direction: row; margin-top: 10px;">
+                                <div class="framework">
+                                    <img class="skill-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" />
+                                    <p>HTML/CSS</p>
+                                </div>
+                                <div class="framework">
+                                    <img class="skill-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
+                                    <p>JavaScript</p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
+                    <div class="project-element">
+                        <img style="visibility:hidden; display: none;" src="jacobotss.png" />
+                        <h4>Jacobot - GPT-4 Chatbot</h4>
+                        <a href="https://github.com/jacoballessio/Jacobot">GitHub Repository</a>
+                        <p>This is a chatbot designed to learn user-specific communication patterns for optimal understanding.</p>
+                        <div class="frameworks-list">
+                            <h5>Frameworks Used</h5>
+                            <div style="display:flex; flex-direction: row; margin-top: 10px;">
+                                <div class="framework">
+                                    <img class="skill-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" />
+                                    <p>Python</p>
+                                </div>
+                                <div class="framework">
+                                    <img class="skill-icon" src="openai.svg" />
+                                    <p>GPT-4</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-element">
+                        <img style="visibility:hidden; display: none;" src="mathartss.png" />
+                        <h4>Math Art</h4>
+                        <a href="https://github.com/jacoballessio/Math-art">GitHub Repository</a>
+                        <p>Various experiments for programatic art</p>
+                        <div class="frameworks-list">
+                            <h5>Frameworks Used</h5>
+                            <div style="display:flex; flex-direction: row; margin-top: 10px;">
+                                <div class="framework">
+                                    <img class="skill-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" />
+                                    <p>HTML/CSS</p>
+                                </div>
+                                <div class="framework">
+                                    <img class="skill-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
+                                    <p>JavaScript</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
                 </div>
-                <div class="project-type">
-                    <h3>Open Source Contributions</h3>
-                    <p>Description of the project.</p>
-                    <div class="project-element">
-                        <h4>Project 1</h4>
-                        <p>Description of the project.</p>
-                    </div>
-                    <div class="project-element">
-                        <h4>Project 2</h4>
-                        <p>Description of the project.</p>
-                    </div>
-                </div>
+                
                 <div class="project-type">
                     <h3>School Projects</h3>
                     <p>Project submitions for various CS college classes.</p>
                     <div class="project-element">
+                        <img style="visibility:hidden; display: none;" src="cis255ss.png" />
                         <h4>CIS 155 Web Scripting</h4>
                         <a href="https://github.com/jacoballessio/Assignments">GitHub Repository</a>
                         <p>Various projects for a web scripting class.</p>
@@ -75,12 +155,82 @@
         </section>
         <section id="skills">
             <h2>Skills</h2>
-            <!-- List your skills here -->
+            <div class="skills-container">
+                <!-- List your skills here -->
+                <div class="skill-type">
+                    <h3>Programming languages and Frameworks</h3>
+                    <div class="skill-element">
+                        <div class="skill-title">
+                            <img class="skill-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
+                            <h4>
+                                JavaScript
+                            </h4>
+                        </div>
+                        
+                        <p>Experience with JavaScript, including Node.js, React, and jQuery.</p>
+                    </div>
+                    <div class="skill-element">
+                        <div class="skill-title">
+                            <img class="skill-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" />
+                            <h4>Python</h4>
+                        </div>
+                        <p>Experience with Python, including the Django framework.</p>
+                    </div>
+                    <div class="skill-element">
+                        <div class="skill-title">
+                            <img class="skill-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" />
+                            <h4>Java</h4>
+                        </div>
+                        <p>Experience with Java, including the Spring framework.</p>
+                    </div>
+                    <div class="skill-element">
+                        <div class="skill-title">
+                            <img class="skill-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" />
+                            <h4>C++</h4>
+                        </div>
+                        <p>Experience with C++.</p>
+                    </div>
+                    <div class="skill-element">
+                        <div class="skill-title">
+                            <img class="skill-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" />
+                            <h4>HTML/CSS</h4>
+                        </div>
+                        <p>Experience with HTML and CSS.</p>
+                    </div>
+                    <div class="skill-element">
+                        <div class="skill-title">
+                            <img class="skill-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-plain-wordmark.svg" />
+                            <h4>SQL</h4>
+                        </div>
+                        <p>Experience with SQL, including MySQL and PostgreSQL.</p>
+                    </div>
+                    <div class="skill-element">
+                        <div class="skill-title">
+                            <img class="skill-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                            <h4>Git</h4>
+                        </div>
+                        <p>Experience with Git.</p>
+                    </div>
+                </div>
+                <div class="skill-type">
+                    <h3>General Skills</h3>
+                </div>
+                <div class="skill-type">
+                    <h3>APIs</h3>
+                </div>
+            </div>
         </section>
         <section id="contact">
             <h2>Contact</h2>
             <p>Want to get in touch? Reach me at: <a href="mailto:youremail@example.com">youremail@example.com</a></p>
         </section>
+        <section id="education">
+            <h2>Education</h2>
+        </section>
+        <section id="work-history">
+            <h2>Work History</h2>
+        </section>
+        
     </main>
     <footer>
         <p>&copy; 2023 Jacob Allessio. All rights reserved.</p>
