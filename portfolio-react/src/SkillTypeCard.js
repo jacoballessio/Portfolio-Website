@@ -3,9 +3,9 @@
 import React from 'react';
 import './HolderBox.css';
 
-function ProjectTypeCard(props) {
+function SkillTypeCard(props) {
     return (
-        <div className="ProjectType HolderBox">
+        <div className="SkillType HolderBox">
             <h2>{props.title}</h2>
             <p>{props.description}</p>
             <div>
@@ -15,5 +15,5 @@ function ProjectTypeCard(props) {
     );
 }
 
-export default ProjectTypeCard;
+export default SkillTypeCard;
 
