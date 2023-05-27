@@ -1,0 +1,189 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+}
+.skill-icon{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #fbd5a3;
+    padding: 5px;
+}
+.framework{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+}
+.framework p{
+    font-size: 9px;
+    width: 50px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    text-align: center;
+    margin-top: 10px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ffd8a6;
+    font-size: 18px;
+}
+
+main {
+    padding: 20px;
+}
+
+h1, h2 {
+    margin-bottom: 10px;
+    animation: slideUpFromBottom 0.2s ease-in-out forwards;
+    
+}
+
+section {
+    margin-bottom: 20px;
+}
+#skills{
+    display: flex;
+    flex-direction: column;
+}
+.project-container, .skills-container {
+    animation: slideUpFromBottom 1s ease-in-out forwards;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   width: 100%;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+#home {
+    color: #ffd8a6;
+    text-shadow: #2e2e2ecc -1px 1px 0px;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    margin-top: 100px;
+    text-align: left;
+    width: 25%;
+    overflow-wrap: normal;
+    right: 34%;
+    position: relative;
+    background-color: black;
+    
+    animation: slideInFromLeft 0.2s ease-in-out forwards;
+}
+#home h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+    animation: slideInFromLeft 0.6s ease-in-out forwards;
+}
+#home p{
+    animation: slideInFromLeft 1s ease-in-out forwards;
+}
+footer {
+    background-color: rgba(244, 244, 244, 0.9);
+    padding: 20px;
+    text-align: center;
+}
+
+a {
+    color: #333;
+}
+
+a:hover {
+    color: #555;
+}
+
+#main-description{
+    -webkit-text-stroke: 0px #00000000;
+    font-size: 17px;
+}
+.project-element{
+    background-color: rgba(21, 21, 21, 0.468);
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    transition: all 0.1s ease;
+}
+.skill-element{
+    background-color: rgba(21, 21, 21, 0.468);
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    transition: all 0.1s ease;
+}
+.skill-element h4{
+    margin-bottom: 10px;
+    overflow-wrap: normal;
+    width: 100%;
+    color: #255cc1;
+    margin-top: 16px;
+    margin-left:10px
+    
+}
+.skill-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.project-element:hover{
+    transform: scale(1.01);
+}
+.project-type a{
+    color: #eea86e;
+    text-shadow: #2e2e2ecc -1px 1px 0px;
+}
+.project-element p {
+    margin-bottom: 10px;
+    overflow-wrap: normal;
+}
+@keyframes slideInFromLeft {
+    0% {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
+  @keyframes slideUpFromBottom {
+    0% {
+      transform: translateY(100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+
+  #projects{
+    color: #fbe3c5;
+    position: relative;
+    right: 45%;
+    font-size: 20px;
+  }
+
+  /*put "coming soon" overlay on top of os-projects*/
+  /*it should only cover up the #os-projects div*/
