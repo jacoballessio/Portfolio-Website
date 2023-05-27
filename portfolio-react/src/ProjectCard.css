@@ -1,0 +1,36 @@
+.ProjectCard {
+    background-color: rgba(21, 21, 21, 0.468);
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    transition: all 0.1s ease;
+}
+
+.hoverImg{
+    width: 200px;
+    height: 0px;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: all 0.1s ease;
+    top: 0;
+    left: 0;
+    position:absolute;
+}
+
+
+
+.ProjectCard:hover {
+    cursor: pointer;
+}
+.ProjectCard h2{
+    font-size: 13px;
+}
+.ProjectCard p{
+    font-size: 10px;
+}
+
+a{
+    color: #eea86e;
+    text-shadow: #2e2e2ecc -1px 1px 0px;
+    font-size: 10px;
+}

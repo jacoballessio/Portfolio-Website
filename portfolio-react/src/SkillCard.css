@@ -1,0 +1,55 @@
+.SkillCard {
+    background-color: rgba(21, 21, 21, 0.468);
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    transition: all 0.1s ease;
+}
+
+.SkillFlex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+.SubSkills{
+    width: 60%;
+    position: relative;
+    background-color: #5e5e5e5b;
+    padding: 20px;
+    border-radius:10px;
+    font-size: 10px;
+}
+.SubSkills .TechList{
+    
+    background-color: #00000052;
+}
+.displayEl {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.displayEl img{
+    padding: 1px;
+}
+
+h1{
+    font-size: 15px;
+    color: #ffd8a6;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+p{
+    font-size: 15px;
+}
