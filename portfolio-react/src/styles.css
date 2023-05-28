@@ -60,10 +60,6 @@ h1, h2 {
 section {
     margin-bottom: 20px;
 }
-#skills{
-    display: flex;
-    flex-direction: column;
-}
 .project-container, .skills-container {
     animation: slideUpFromBottom 1s ease-in-out forwards;
    display: flex;
@@ -98,12 +94,6 @@ section {
 #home p{
     animation: slideInFromLeft 1s ease-in-out forwards;
 }
-footer {
-    background-color: rgba(244, 244, 244, 0.9);
-    padding: 20px;
-    text-align: center;
-}
-
 a {
     color: #333;
 }

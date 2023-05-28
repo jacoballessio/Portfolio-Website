@@ -16,7 +16,7 @@ function TechList(props) {
                 {props.techList.map((tech) => {
                     return (
                         <div key={tech}>
-                            <TechComp textStyle={{fontSize: '10px'}} tech={tech} />
+                            <TechComp textStyle={{fontSize: '10px'}} style={{transform: "Scale(0.8)"}} tech={tech} />
                         </div>
                     );
                 })}

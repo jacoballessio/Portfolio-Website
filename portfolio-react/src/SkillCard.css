@@ -66,3 +66,7 @@ p{
     opacity: 0.025;
     filter: grayscale(100%);
 }
+
+.SkillType{
+    width: 100%;
+}
