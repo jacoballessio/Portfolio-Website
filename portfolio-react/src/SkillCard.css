@@ -21,7 +21,7 @@
 .SubSkills{
     width: 60%;
     position: relative;
-    background-color: #5e5e5e5b;
+    background-color: #222222;
     padding: 20px;
     border-radius:10px;
     font-size: 10px;
@@ -52,4 +52,17 @@ h1{
 
 p{
     font-size: 15px;
+}
+
+.SkillBackground{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    z-index: 0;
+    opacity: 0.025;
+    filter: grayscale(100%);
 }

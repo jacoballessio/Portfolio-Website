@@ -9,6 +9,7 @@ import SkillTypeCard from './SkillTypeCard';
 import SkillCard from './SkillCard';
 import TechComp from './TechComp';
 import TechList from './TechList';
+import TechListLogos from './TechListLogos.json';
 function App() {
 
   return (
@@ -16,46 +17,53 @@ function App() {
       <header className="App-header">
         <Nav />
         <section id="home">
-            <h1>Welcome to Jacob Allessio's Portfolio</h1>
-            <p id="main-description">I'm Jacob Allessio, a Computer Science enthusiast with experience in various fields. Check out my projects and skills below!</p>
+          <h1>Welcome to Jacob Allessio's Portfolio</h1>
+          <p id="main-description">I'm Jacob Allessio, a Computer Science undergraduate with experience in various fields. Check out my projects and skills below!</p>
         </section>
-        <h1 id="projects" style={{ padding: "10px", borderRadius: "10px", fontSize:"25px"}}>Projects</h1>
-        
+
+        <h1 className="SectionHeading">Projects</h1>
+
         <section className='ProjectSection CommonSection'>
-          
+
           <ProjectTypeCard title="Websites">
-            <ProjectCard techList={["React.js", "HTML", "Javascript", "Node.js"]} title="Portfolio Website" image={portfolioss} description="The site you're on right now!" github="https://github.com/jacoballessio/Portfolio-Website" link="https://www.google.com" />
+            <ProjectCard type="Personal" techList={["React.js", "HTML", "Javascript", "Node.js"]} title="Portfolio Website" image={portfolioss} description="The site you're on right now!" github="https://github.com/jacoballessio/Portfolio-Website" link="https://www.google.com" />
+            <ProjectCard type="Personal" techList={["HTML", "Javascript"]} title="Shakey Snake" image={portfolioss} description="ShakySnake is a clone of the classic 'snake' game, with the added feature that you can upload music and watch the snake dance to it." github="https://github.com/jacoballessio/ShakySnake" link="https://www.google.com" />
+            <ProjectCard type="School" techList={["HTML","CSS", "Javascript"]} title="CIS 155" image={portfolioss} description="Several websites projects from my CIS 155 course." github="https://github.com/jacoballessio/Assignments" link="https://www.google.com" />
+            
           </ProjectTypeCard>
           <ProjectTypeCard title="Applications">
-            <ProjectCard title="Project 1" image={logo} description="This is a project" link="https://www.google.com" />
-          </ProjectTypeCard>
-          <ProjectTypeCard title="Back-end">
-            <ProjectCard title="Project 1" image={logo} description="This is a project" link="https://www.google.com" />
+            <ProjectCard type="Personal" title="Jacobot" techList={["Python", "GPT-4", "Langchain", "AWS", "python-telegram-bot"]} image={logo} description="Jacobot a helpful personalized chatbot powered by GPT-4. The goal is to create an easily accessible telegram chatbot that takes advantage of the major advancements in LLM technology. " github="https://github.com/jacoballessio/Jacobot" link="https://www.google.com" />
           </ProjectTypeCard>
           <ProjectTypeCard title="Machine learning">
+
             <ProjectCard title="Project 1" image={logo} description="This is a project" link="https://www.google.com" />
           </ProjectTypeCard>
-          
+          <ProjectTypeCard title="Miscellaneous">
+            <ProjectCard title="Project 1" image={logo} description="This is a project" link="https://www.google.com" />
+          </ProjectTypeCard>
+
+
         </section>
-        <h1 id="projects" style={{ padding: "10px", borderRadius: "10px", fontSize:"25px"}}>Skills</h1>
+        <h1 className="SectionHeading">Skills</h1>
         <section className='SkillsSection CommonSection'>
           <SkillTypeCard title="Programming Languages">
-            <SkillCard displayElement={<TechComp tech="Python" />}>
+            <SkillCard skill="Python" skillBackground>
               <TechList title="Experience with" techList={["Flask", "TensorFlow", "Keras", "Pandas", "Numpy", "Matplotlib"]} />
             </SkillCard>
-            <SkillCard displayElement={<TechComp tech="JavaScript" />}>
+            <SkillCard skill="JavaScript" skillBackground>
               <TechList title="Experience with" techList={['React.js', 'Node.js', 'Express.js', 'HTML', 'CSS']} />
             </SkillCard>
-            <SkillCard displayElement={<TechComp tech="Java" />}>
+            <SkillCard skill="Java" skillBackground>
               <TechList title="Experience with" techList={['JavaFX']} />
             </SkillCard>
           </SkillTypeCard>
-          <SkillTypeCard title="Software and tools">
-            <SkillCard displayElement={<TechComp tech="Photoshop" />} />
-            <SkillCard displayElement={<TechComp tech="VSCode" />} />
-            <SkillCard displayElement={<TechComp tech="Github" />} />
-            <SkillCard displayElement={<TechComp tech="Unity 3D" />} />
-            <SkillCard displayElement={<TechComp tech="Blender" />} />
+          <SkillTypeCard title="Software and tools" >
+            <SkillCard skill="Photoshop" />
+            <SkillCard skill="VSCode" />
+            <SkillCard skill="Github" />
+            <SkillCard skill="Unity 3D" />
+            <SkillCard skill="Blender" />
+            <SkillCard skill="ChatGPT" />
           </SkillTypeCard>
           <SkillTypeCard title="Soft Skills">
             <SkillCard displayElement={<p>Fast learner</p>} />
