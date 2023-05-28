@@ -178,11 +178,15 @@ a:hover {
     }
   }
 
-  #projects{
+  .SectionHeading{
     color: #fbe3c5;
     position: relative;
-    right: 45%;
     font-size: 20px;
+    padding: "10px";
+    border-radius: "10px";
+    text-align: left;
+    align-self: start;
+    margin-left: 20px;
   }
 
   /*put "coming soon" overlay on top of os-projects*/

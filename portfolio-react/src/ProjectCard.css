@@ -16,9 +16,47 @@
     left: 0;
     position:absolute;
 }
-
-
-
+.ProjectCardLink{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    
+}
+.GithubLink{
+    text-align: center;
+}
+.ProjectTitleSection{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    height: 100%;
+    width: 100%;
+}
+.ProjectTitleLeft{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: left;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+.ProjectTitleRight{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: right;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+.ProjectCardLink p{
+    margin-right: 10px;
+    font-size: 10px;
+}
+.ProjectTitleSection h2{
+    width: 100%;
+}
 .ProjectCard:hover {
     cursor: pointer;
 }
