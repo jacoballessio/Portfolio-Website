@@ -9,7 +9,7 @@ The website is built using modern web technologies, ensuring a responsive and vi
 ## Technologies Used
 - **React**: The project is built with React, a popular JavaScript library for building user interfaces.
 - **React Router**: Enables client-side routing and navigation within the React application.
-- **CSS/Sass**: Styling is handled using CSS and the Sass preprocessor for modular and maintainable stylesheets.
+- **CSS**: Styling is handled using CSS for modular and maintainable stylesheets.
 - **Firebase**: The website is hosted and deployed on Firebase, a comprehensive app development platform provided by Google.
 
 ## Repository Contents
